@@ -93,13 +93,15 @@ export default function Quote() {
               Nashua, NH
             </div>
             <div className="contactBar">
-              <a
-                target="_blank"
-                rel="noopener noreferrer"
-                href="https://www.facebook.com/EAFCustomDecksandRemodeling/"
-              >
-                Check out our Facebook!
-              </a>
+              <div className="fb">
+                <a
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.facebook.com/EAFCustomDecksandRemodeling/"
+                >
+                  Check out our Facebook!
+                </a>
+              </div>
             </div>
           </div>
         </div>
