@@ -1,0 +1,9 @@
+.mainApp {
+  top: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+  overflow: auto;
+  position: relative;
+  background-color: rgba(80, 36, 10, 0.383);
+}
