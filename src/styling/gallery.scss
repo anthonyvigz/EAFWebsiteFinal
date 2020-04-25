@@ -93,3 +93,19 @@
     }
   }
 }
+
+//mobile
+@media (max-width: 765px) {
+  #gallery {
+    padding-top: 100px;
+    .sliderBg {
+      #goLeft {
+        width: 18%;
+      }
+
+      #goRight {
+        width: 18%;
+      }
+    }
+  }
+}

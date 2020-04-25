@@ -35,3 +35,15 @@
     letter-spacing: 2.7px;
   }
 }
+
+//mobile
+@media (max-width: 765px) {
+  #home {
+    img {
+      margin-top: 200px;
+      opacity: 0.95;
+      width: 250px;
+      justify-content: center;
+    }
+  }
+}

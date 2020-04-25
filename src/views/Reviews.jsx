@@ -12,7 +12,9 @@ export default function Reviews() {
     <div className="reviewsBg">
       <div id="invisReviewsMargin"></div>
       <div id="reviews">
-        <h2 data-aos="fade-right">What our customers think of us:</h2>
+        <h2 id="customer" data-aos="fade-right">
+          What our customers think of us:
+        </h2>
         <div data-aos="fade-up" className="reviewBlocks">
           <div className="wholeReview">
             <div className="reviewBlock">
