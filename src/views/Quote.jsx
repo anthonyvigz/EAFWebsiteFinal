@@ -94,8 +94,8 @@ export default function Quote() {
             </div>
             <div className="contactBar">
               <a
-                a
                 target="_blank"
+                rel="noopener noreferrer"
                 href="https://www.facebook.com/EAFCustomDecksandRemodeling/"
               >
                 Check out our Facebook!

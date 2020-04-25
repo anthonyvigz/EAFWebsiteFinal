@@ -39,7 +39,11 @@ export default function Slider() {
       <div className="slider">
         {images.map((image, index) => {
           return (
-            <div className="slide" style={{ transform: `translateX(${x}%)` }}>
+            <div
+              className="slide"
+              key={index}
+              style={{ transform: `translateX(${x}%)` }}
+            >
               <img src={image.secure_url} alt="img" key={index} />
             </div>
           );
