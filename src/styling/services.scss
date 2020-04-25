@@ -60,3 +60,22 @@
     }
   }
 }
+
+//mobile
+@media (max-width: 765px) {
+  #services {
+    .serviceBlocks {
+      .serviceBlock {
+        width: 285px;
+
+        h1 {
+          font-size: 1.8em;
+        }
+
+        p {
+          font-size: 0.9em;
+        }
+      }
+    }
+  }
+}
