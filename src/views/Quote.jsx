@@ -39,14 +39,15 @@ export default function Quote() {
     if (name && message && email && number) {
       emailjs
         .send(
-          "gmail",
-          "template_SPqTzvPP",
+          "default_service",
+          "template_GOv1htt7",
           templateParams,
-          "user_ok070rGofhMku7T0N56rz"
+          "user_rGWdnwCpUiWeyX8dyhD8e"
         )
         .then((res) => {
           popup.style.opacity = "1";
           popup.innerHTML = "Sent!";
+          setQuote({ name: "", email: "", message: "", number: "" });
 
           setTimeout(function () {
             popup.style.opacity = "0";
@@ -55,8 +56,6 @@ export default function Quote() {
         .catch((err) => {
           console.error(err);
         });
-
-      this.setState({ name: "", email: "", message: "" });
     } else {
       popup.style.opacity = "1";
       popup.innerHTML = "Please fill out all fields.";
