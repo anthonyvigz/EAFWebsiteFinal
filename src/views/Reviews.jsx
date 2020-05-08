@@ -39,12 +39,14 @@ export default function Reviews() {
             <div className="reviewBlock">
               <i className="fas fa-quote-left topLeft"></i>
               <p>
-                I am very pleased with the work done on my decks... I would
-                recommend this company.
+                We can't thank you guys enough! Great work! We are soooo happy!
+                <br />
+                <br />
+                <span style={{ fontSize: "1.5em" }}>Super happy!</span>
               </p>
               <i className="fas fa-quote-right bottomRight"></i>
             </div>
-            <h3>John C.</h3>
+            <h3>Erin G. and Jane A. via Facebook</h3>
             <div className="fiveStars">
               <i className="fas fa-star"></i>
               <i className="fas fa-star"></i>
