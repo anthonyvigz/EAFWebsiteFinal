@@ -4,8 +4,11 @@ import eafLogo from "../img/EAF_Final.png";
 import { motion } from "framer-motion";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Modal from './Modal';
+
 
 export default function Home() {
+
   useEffect(() => {
     Aos.init({ duration: 2000 });
   }, []);
