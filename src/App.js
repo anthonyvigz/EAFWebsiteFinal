@@ -54,7 +54,9 @@ function App() {
             </div>
             <h3>Affordable Rates</h3>
           </div>
-          <h4>Call Us: 1 (603) 897 9776 </h4>
+          <h4>Call Us:</h4>
+            <h4>1 (603) 897 9776 </h4>
+            <h4>1 (603) 759 5424 </h4>
          </div>
           </div>
           </Modal>
